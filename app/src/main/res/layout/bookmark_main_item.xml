@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="110dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:background="#373737"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/bookMarkItemImage"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            tools:srcCompat="@tools:sample/avatars[0]" />
+
+        <TextView
+            android:id="@+id/bookMarkItemTextTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|top"
+            android:layout_margin="8dp"
+            android:text="1:46:56"
+            android:textColor="@android:color/white"
+            android:textSize="10sp" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/bookMarkItemTextTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="7dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="5dp"
+        android:text="여행 1"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/bookMarkItemTextTag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="7dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="3dp"
+        android:text="#파리 #에펠탑"
+        android:textColor="@android:color/white"
+        android:textSize="10sp" />
+</LinearLayout>
