@@ -2,19 +2,11 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#373737"
     android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/homeTextView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#4D4D4D"
-        android:padding="10dp"
-        android:text="Home"
-        android:textColor="#FFFFFF" />
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_Home"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </LinearLayout>

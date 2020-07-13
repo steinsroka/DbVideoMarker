@@ -6,6 +6,7 @@ import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
+import com.example.dbvideomarker.database.dao.VideoDao;
 import com.example.dbvideomarker.database.entitiy.Video;
 
 @Database(entities = {Video.class}, version = 1, exportSchema = false)

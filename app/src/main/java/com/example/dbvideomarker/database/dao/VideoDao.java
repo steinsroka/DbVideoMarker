@@ -19,7 +19,7 @@ public interface VideoDao {
     LiveData<List<Video>> findAllVideo();
 
     @Query("SELECT * FROM Video WHERE vid=:vid")
-    Video findId(long vid);
+    Video findVideo(long vid);
 
     @Insert(onConflict = IGNORE)
     void insertVideo(Video video);
